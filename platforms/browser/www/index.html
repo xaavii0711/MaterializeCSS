@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Security-Policy" content="default-src https://code.jquery.com https://fonts.gstatic.com 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src https://fonts.googleapis.com 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
   <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src https://code.jquery.com https://fonts.gstatic.com 'self' data: https://api.spaceflightnewsapi.net gap: https://ssl.gstatic.com 'unsafe-eval'; style-src https://fonts.googleapis.com 'self' 'unsafe-inline'; media-src *; img-src * 'self' data: content:;">  <meta name="format-detection" content="telephone=no">
 
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -49,7 +49,10 @@
     <li class="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
     <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
   </ul>
-  <div id="test-swipe-1" class="col s12 blue">Test 1</div>
+  <div id="test-swipe-1" class="col s12 blue">
+    <button id="mostrarTitol">Titol</button>
+    <div class="collection"></div>
+  </div>
   <div id="test-swipe-2" class="col s12 red">Test 2</div>
   <div id="test-swipe-3" class="col s12 green">
     <div class="tabs-content">
@@ -57,8 +60,13 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m6 l4">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">sports_soccer</i></h2>
+              <div class="card">
+                <div class="card-image">
+                </div>
+                <div class="card-content">
+                  
+                </div>
+                <h2 class="center brown-text"></h2>
                 <h5 class="center">Fútbol</h5>
     
                 <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ac odio ut viverra. Duis turpis diam, placerat et varius a, interdum ut ligula. Praesent sem velit, dictum eget ipsum nec, condimentum suscipit ligula. Donec rhoncus, elit non tempus posuere, velit augue consequat felis, non placerat sem diam vel tellus. Ut laoreet ut est eu bibendum. Curabitur luctus tellus semper, porttitor ipsum nec, tristique neque. Sed orci nulla, consectetur ut ligula et, congue ullamcorper felis. Etiam mollis feugiat nunc, vitae consequat enim dictum sed. Sed eget bibendum turpis. Pellentesque aliquet molestie egestas.</p>
