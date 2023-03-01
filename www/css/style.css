@@ -39,9 +39,24 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+
+#test-swipe-2 img {
+  max-width: 900px;
+}
+#test-swipe-2 a {
+  color: blue;
+}
+
+.icon-block {
+  text-align: center;
+}
+
+.icon-block img {
+  max-width: 350px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
